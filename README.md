@@ -26,6 +26,9 @@
 
 - 使用MATLAB2017b编写，版本较低可能会有问题
 
-希望大家能继续完善
+- 希望大家能继续完善
 
-NINGNINGGAO 2019年3月15日
+## 授权
+- Code of this project is licensed under the [MIT license](MIT license).
+
+**NINGNINGGAO 2019年3月15日**
