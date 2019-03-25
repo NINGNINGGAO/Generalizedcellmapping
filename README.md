@@ -29,6 +29,6 @@
 - 希望大家能继续完善
 
 ## 授权
-- Code of this project is licensed under the [MIT license](MIT license).
+- Code of this project is licensed under the [MIT license](LICENSE).
 
 **NINGNINGGAO 2019年3月15日**
