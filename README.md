@@ -48,4 +48,4 @@
 ## License
 - Code of this project is licensed under the [MIT license](LICENSE).
 
-**NINGNINGGAO 2019年3月15日**
+**NINGNINGGAO 2019.3.15**
