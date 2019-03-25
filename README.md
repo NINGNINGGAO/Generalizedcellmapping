@@ -6,7 +6,7 @@
 
 ## 实现方案
 - [x] 本代码采用的西北工业大学理学院方面的图胞映射路线，参考的岳晓乐老师及韩群老师等人的[Paper](https://github.com/NINGNINGGAO/cellmappingpaper).
-- [ ] ~~未三维以上复合胞映射方法，复合胞映射拟采用贺群老师，大家感兴趣的话，可以自己实现一下~~
+- [ ] ~~未三维以上复合胞映射方法，复合胞映射拟采用贺群老师的[Paper](https://github.com/NINGNINGGAO/cellmappingpaper).，大家感兴趣的话，可以自己实现一下~~
 
 ## 声明
 **- 代码完全由个人编写实现**
@@ -31,4 +31,5 @@
 ## 授权
 - Code of this project is licensed under the [MIT license](LICENSE).
 
+[百度](https://www.baidu.com/)
 **NINGNINGGAO 2019年3月15日**
