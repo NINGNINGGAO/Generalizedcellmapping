@@ -8,10 +8,11 @@
 - [x] 本代码采用的西北工业大学理学院方面的图胞映射路线，参考的岳晓乐老师及韩群老师等人的论文
 - [ ] ~~未三维以上复合胞映射方法，复合胞映射拟采用贺群老师的[Paper](http://xueshu.baidu.com/usercenter/paper/show?paperid=857f134b01b83c8052b3971f4171c583&site=xueshu_se).，大家感兴趣的话，可以自己实现一下~~
 
-## statement
+## Copyright Clarify
 **- Code is written entirely by individuals**
 **- All rights reserved**
 **- All materials not authorized may not be redirected or for other usages！**
+**- Otherwise，I will have the right to pursue legal responsibilities**
 
 ## Operation instructions
 - 代码具体说明文件可以看[MULT_CELLMAPPING.m](code/MULT_CELLMAPPING.m)文件
