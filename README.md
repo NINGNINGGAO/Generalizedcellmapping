@@ -42,7 +42,7 @@
   - Chinese version[提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
 - When you ask
   - Be nice
-  - Chinese is preferred
+  - Chinese Language is preferred
   - Attach useful information, describe what you have tried
 
 ## License
