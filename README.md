@@ -52,7 +52,6 @@
   - Read [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
   - Chinese version[提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
 - When you ask
-  - Be nice
   - Chinese Language is preferred
   - Attach useful information, describe what you have tried
 
