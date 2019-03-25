@@ -10,8 +10,11 @@
 
 ## Copyright Clarify
 **- Code is written entirely by individuals**
+
 **- All rights reserved**
+
 **- All materials not authorized may not be redirected or for other usages！**
+
 **- Otherwise，I will have the right to pursue legal responsibilities**
 
 ## Operation instructions
