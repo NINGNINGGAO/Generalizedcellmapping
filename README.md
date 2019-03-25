@@ -10,6 +10,8 @@
 
 ## statement
 **- Code is written entirely by individuals**
+**- All rights reserved**
+**- All materials not authorized may not be redirected or for other usages！**
 
 ## Operation instructions
 - 代码具体说明文件可以看[MULT_CELLMAPPING.m](code/MULT_CELLMAPPING.m)文件
@@ -26,7 +28,12 @@
 
 - ~~版本较低可能会有问题~~
 
-- 希望大家能继续完善
+## More
+- 寻求有愿意继续完善的朋友
+
+- 所有提交内容的贡献者，将会在文中体现贡献者个人信息
+
+- 联系方式：**707288044@qq.com**
 
 ## NOTICE
 - Act smart
