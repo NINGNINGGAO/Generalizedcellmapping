@@ -1,4 +1,4 @@
-# Generalizedcellmapping
+# Generalized cell mapping
 ---------------------------------------------------------------------
 
 ## Object
