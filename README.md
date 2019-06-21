@@ -28,10 +28,11 @@
   - Chinese version[提问的智慧](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
 - When you ask
   - Attach useful information, describe what you have tried
+  
+## Email
+- gao_ningning@foxmail.com
 
 ## License
 - Code of this project is licensed under the [MIT license](LICENSE).
 
 ---------------------------------------------------------------------------------------------------------
-
-**NINGNINGGAO    2019.3.15**
