@@ -11,10 +11,16 @@
 
 ## Operation instructions
 
-- Parameter modification in [main.m](CODE/main.m).
-- Autonomous Equation [V1_tode.m](CODE/V1_tode.m); Non-autonomous equation [V2_tode.m](CODE/V2_tode.m); Autonomous Equation using GPU [V1_GPU_tode.m](CODE/V1_GPU_tode.m); Non-autonomous equation using GPU [V2_GPU_tode.m](CODE/V2_GPU_tode.m).
-- **Qualitative Analysis:** Drawing using [NEWplot.m](CODE/NEWplot.m)；Only two-dimensional and three-dimensional drawings.
-- **Quantitative Analysis:** Drawing using [GRA.m](CODE/GRA.m)；Only one-dimensional drawings.
+- Parameter modification in [main.m](CODE/main.m)
+- In addition, you need to write your equation into the file.
+  - Autonomous Equation [V1_tode.m](CODE/V1_tode.m)
+  - Non-autonomous equation [V2_tode.m](CODE/V2_tode.m)
+  - Autonomous Equation use GPU [V1_GPU_tode.m](CODE/V1_GPU_tode.m)
+  - Non-autonomous equation use GPU [V2_GPU_tode.m](CODE/V2_GPU_tode.m)
+- **Qualitative Analysis**
+  - Drawing using [NEWplot.m](CODE/NEWplot.m) (Only two-dimensional and three-dimensional drawings)
+- **Quantitative Analysis** 
+  - Drawing using [GRA.m](CODE/GRA.m) (Only one-dimensional drawings)
 
 ## NOTICE
 
@@ -30,9 +36,11 @@
   - Attach useful information, describe what you have tried
   
 ## Email
+
 - gao_ningning@foxmail.com
 
 ## License
+
 - Code of this project is licensed under the [MIT license](LICENSE).
 
 ---------------------------------------------------------------------------------------------------------
