@@ -3,11 +3,11 @@
 
 ## Object
 
-**>Global Characteristic Analysis of Dynamic System**
+**Global Characteristic Analysis of Dynamic System**
 
 ## Theory
 
-**>The basic theory is to discretize the state space of the dynamic system into a small geometric body. All cells constitute the cell space. The state transition in the dynamic system naturally corresponds to the transfer between cells. Through the study of the transfer relationship between cells, the study of the original power system is completed.**
+**The basic theory is to discretize the state space of the dynamic system into a small geometric body. All cells constitute the cell space. The state transition in the dynamic system naturally corresponds to the transfer between cells. Through the study of the transfer relationship between cells, the study of the original power system is completed.**
 
 ## Operation instructions
 
