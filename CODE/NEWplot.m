@@ -21,7 +21,7 @@ function NEWplot(FIR,SEC,D,trapD,D1,D2,SM,UM,interval,widght,bcell,cellnum)
 %--------------------------------------------------------------------------
 m=length(bcell);
 if m==3
-    
+
     subplot(1,2,1)
     hold on
     if isempty(D1)==0

@@ -1,19 +1,21 @@
 %%
 clear;clc;
+close all;
 format long
-bcell = [200 200];%big cell
-smcell = [2 2];%small cell
-interval = [-2 2 -2 2]';%%[x1min x1max x2min x2max x3min x3max]
-MC = 1;%Monte Carlo
-t = 0;%time t
-D = 0;%Noise
+dimension = 2;
+largeCellSize = [60 60];
+smallCellSize = [2 2 2 2];%small cell
+stateSpace = [-10 10 10 10]';
+monteCarloSimulationTimes = 1;
+time = 0;
+noiseIntensity = 0;
 h = 0.01;%step
-OSS = 0.01;%one step mapping
+oneStepMappingSize = 0.05;%one step mapping
 MQ = OSS/h;%calculating number
-MemorySize = 1e+8;%CPU or GPU Computing Volume
-DL = 0;%quantitative analysis 0/1
-DX = 1;%qualitative analysis 0/1
-mailme = 0;%mail 0/1
+MemorySize = 1e+6;%CPU or GPU Computing Volume
+DL = 1;%quantitative analysis 0/1
+DX = 0;%qualitative analysis 0/1
+mailme = 1;%mail 0/1
 
 if mailme
     MailAddress = '707288044@qq.com';
@@ -22,7 +24,10 @@ end
 
 %% core
 warning('require more than 2017 version!')
-[cellnum,smcellnum,widght,CMQmat,CMQ]=gnn(bcell,smcell,interval,MC,MQ,MemorySize,t,D,h,OSS,"ODE");
+ParameterSettingAssertionFunction(dimension, largeCellSize, smallCellSize, stateSpace,...
+    monteCarloSimulationTimes, time, noiseIntensity, h, oneStepMappingSize)
+[cellnum,smcellnum,widght,CMQmat,CMQ]=gnn(largeCellSize,smallCellSize,stateSpace,monteCarloSimulationTimes,...
+    MQ,MemorySize,time,noiseIntensity,h,oneStepMappingSize,"ODE");
 
 %%
 %%quantitative analysis
