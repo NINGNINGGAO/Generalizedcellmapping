@@ -33,21 +33,21 @@ ParameterSettingAssertionFunction(dimension, largeCellSize, smallCellSize, state
 %%quantitative analysis
 if DL
     P=MATANA(CMQmat,-100);%P=MATANA(CMQmat,-n,[Cells of concern])    uniform distribution or Centralized distribution
-    GRA(P,bcell,interval,widght,-1);%%only one-dimensional drawings
+    GRA(P,largeCellSize,stateSpace,widght,-1);%%only one-dimensional drawings
 end
 %%
 %%qualitative analysis
 if DX
     [TSTDTY,group,cgrouping,grouping]=Integrating(CMQ);
     [FIR,SEC,D,trapD,D1,D2,SM,UM]=matly(TSTDTY,group,cgrouping,grouping);
-    NEWplot(FIR,SEC,D,trapD,D1,D2,SM,UM,interval,widght,bcell,cellnum);%%only two-dimensional and three-dimensional drawings
+    NEWplot(FIR,SEC,D,trapD,D1,D2,SM,UM,stateSpace,widght,largeCellSize,cellnum);%%only two-dimensional and three-dimensional drawings
 end
 %%
 if mailme
     time=datevec(datestr(now));
-    saveas(gcf, ['data/picture/picture_' num2str(length(bcell)) '_' num2str(bcell(1)) '_' num2str(smcell(1)) '_' num2str(time(1)) '_' num2str(time(2)) '_' num2str(time(3)) '_' num2str(time(4)) '_' num2str(time(5)) '.fig']);
-    saveas(gcf, ['data/picture/picture_' num2str(length(bcell)) '_' num2str(bcell(1)) '_' num2str(smcell(1)) '_' num2str(time(1)) '_' num2str(time(2)) '_' num2str(time(3)) '_' num2str(time(4)) '_' num2str(time(5)) '.jpg']);
-    eval(['DataPath={''.\data\picture\picture_',num2str(length(bcell)),'_',num2str(bcell(1)),'_',num2str(smcell(1)),'_',num2str(time(1)),'_',num2str(time(2)),'_',num2str(time(3)),'_',num2str(time(4)),'_',num2str(time(5)),'.jpg''};';])
+    saveas(gcf, ['data/picture/picture_' num2str(length(largeCellSize)) '_' num2str(largeCellSize(1)) '_' num2str(smallCellSize(1)) '_' num2str(time(1)) '_' num2str(time(2)) '_' num2str(time(3)) '_' num2str(time(4)) '_' num2str(time(5)) '.fig']);
+    saveas(gcf, ['data/picture/picture_' num2str(length(largeCellSize)) '_' num2str(largeCellSize(1)) '_' num2str(smallCellSize(1)) '_' num2str(time(1)) '_' num2str(time(2)) '_' num2str(time(3)) '_' num2str(time(4)) '_' num2str(time(5)) '.jpg']);
+    eval(['DataPath={''.\data\picture\picture_',num2str(length(largeCellSize)),'_',num2str(largeCellSize(1)),'_',num2str(smallCellSize(1)),'_',num2str(time(1)),'_',num2str(time(2)),'_',num2str(time(3)),'_',num2str(time(4)),'_',num2str(time(5)),'.jpg''};';])
     mailTome(MailAddress,password,DataPath);
     datevec(datestr(now))
 end
