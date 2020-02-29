@@ -1,14 +1,14 @@
 function [Order,Part]=Gabow(CMQ)
 %--------------------------------------------------------------------------
 %Gabow Algorithm
-% 
+%
 %input argument
 %           CMQ:One-step transition probability matrix,but value is one,
 %                   not probability
 %output argument
 %           Order:Access Sequence
 %           Part:strongly connected components
-% 
+%
 %author:NINGNINGGAO
 %--------------------------------------------------------------------------
 
@@ -27,7 +27,7 @@ while any(Order==-1)
         [temp,mid,Order,Part,Path,Root]=Gabowwolf(CMQ,m,v,temp,mid,Order,Part,Path,Root);
     catch
         warning('insufficient memory')
-        disp('Reducing the number of large or small cells')
-        disp('Or use computers with larger memory')
-        disp('Or if there is enough memory, change a larger value at set(0,RecursionLimit,1000)')
+        disp('This part of algorithm needs to be improved, or larger memory needs to be replaced, or the number of large cells needs to be reduced')
+    end
+end
 end
